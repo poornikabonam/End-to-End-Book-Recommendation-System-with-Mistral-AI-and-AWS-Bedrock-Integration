@@ -21,7 +21,7 @@
 The End-to-End Book Recommendation System integrates a React frontend with various AWS services to process user preferences and generate book recommendations. This document details the setup and configuration of AWS components involved in this architecture.
 
 ## **Architecture**
-![Architecture Diagram](![image](https://github.com/user-attachments/assets/1a08705f-2074-4df3-94dc-4be0e1e2069b)) <!-- Add an architecture diagram showing AWS components and their interactions -->
+(![image](https://github.com/user-attachments/assets/1a08705f-2074-4df3-94dc-4be0e1e2069b)) <!-- Add an architecture diagram showing AWS components and their interactions -->
 
 ## **Process Flow**
 1. **User Input**: Captured via the React frontend.
@@ -51,7 +51,7 @@ The React application is hosted on Amazon S3, which serves the frontend assets a
 4. **Configure CDN (Optional)**:
    - Set up Amazon CloudFront for content delivery and caching.
 
-![S3 Deployment](![image](https://github.com/user-attachments/assets/303e5cff-e65d-491b-aa1d-edd695b6c187)
+(![image](https://github.com/user-attachments/assets/303e5cff-e65d-491b-aa1d-edd695b6c187)
 ) <!-- Add an image of the S3 bucket configuration and CloudFront setup -->
 
 ### **Backend Configuration**
@@ -72,8 +72,8 @@ API Gateway serves as the interface between the frontend and backend.
 
 4. **Deploy the API**:
    - Create a deployment stage and deploy the API.
-
-![API Gateway Setup](![image](https://github.com/user-attachments/assets/4d9bcd9e-6d71-4f72-ba23-91015293a0f8)
+   - 
+(![image](https://github.com/user-attachments/assets/4d9bcd9e-6d71-4f72-ba23-91015293a0f8)
 ) <!-- Add an image of the API Gateway configuration and deployment -->
 
 ### **AWS Lambda Configuration**
@@ -94,7 +94,7 @@ AWS Lambda executes the backend logic for processing and generating recommendati
 4. **Set Lambda Triggers**:
    - Link the Lambda function with API Gateway as a trigger.
 
-![Lambda Function](![image](https://github.com/user-attachments/assets/27560a33-1890-441e-a468-0a903aa1717d)) <!-- Add an image of the Lambda function configuration and code editor -->
+(![image](https://github.com/user-attachments/assets/27560a33-1890-441e-a468-0a903aa1717d)) <!-- Add an image of the Lambda function configuration and code editor -->
 
 ### **CloudWatch Monitoring**
 AWS CloudWatch monitors Lambda performance and logs.
@@ -107,7 +107,7 @@ AWS CloudWatch monitors Lambda performance and logs.
    - Create CloudWatch Alarms to monitor Lambda performance and errors.
    - Configure notifications for critical issues.
 
-![CloudWatch Monitoring](![image](https://github.com/user-attachments/assets/b930c3d0-9c07-4948-aa75-a72089d05cc2)
+(![image](https://github.com/user-attachments/assets/b930c3d0-9c07-4948-aa75-a72089d05cc2)
 ) <!-- Add an image of the CloudWatch dashboard showing logs and alarms -->
 
 ## **Achievements**
