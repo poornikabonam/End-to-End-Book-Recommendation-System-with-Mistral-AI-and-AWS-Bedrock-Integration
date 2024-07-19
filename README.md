@@ -8,6 +8,7 @@
 - [Architecture](#architecture)
 - [Process Flow](#process-flow)
 - [AWS Setup](#aws-setup)
+  - [Dataset](#dataset)
   - [Frontend Deployment](#frontend-deployment)
   - [Backend Configuration](#backend-configuration)
   - [API Gateway Setup](#api-gateway-setup)
@@ -31,6 +32,9 @@ The End-to-End Book Recommendation System integrates a React frontend with vario
 5. **Response Delivery**: Recommendations are sent back to the frontend.
 
 ## **AWS Setup**
+
+## **Dataset**
+Dataset - https://www.kaggle.com/datasets/bahramjannesarr/goodreads-book-datasets-10m
 
 ### **Frontend Deployment**
 The React application is hosted on Amazon S3, which serves the frontend assets and ensures scalability.
